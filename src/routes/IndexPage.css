@@ -1,0 +1,44 @@
+
+.layout {
+  /*margin: 3rem auto;*/
+  /*!*margin-top: 10rem;*!*/
+  /*max-width: 400px;*/
+}
+
+.column{
+  margin:  auto;
+  margin-top: 10rem;
+  max-width: 500px;
+}
+
+.list {
+  margin: 0.5rem auto;
+  /*background-color: #fff;*/
+  width: 80%;
+  border:2px white;
+}
+
+.btndel {
+  position: absolute;
+  right: 20px;
+  float: right;
+}
+
+.item {
+  margin: 1rem;
+}
+
+.check {
+  text-decoration: line-through;
+  float: left;
+}
+
+.noncheck{
+  float: left;
+}
+
+.column input[type='text'] {
+  width: 400px;
+  margin-right: 5px;
+}
+
