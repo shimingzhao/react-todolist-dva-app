@@ -4,12 +4,9 @@ import styles from './IndexPage.css';
 import { Button,Input, Form, Grid, Header, Icon, Checkbox, Table, Segment } from 'semantic-ui-react'
 import 'semantic-ui-css/semantic.min.css';
 
-
-
 class IndexPage extends React.Component {
   constructor(props) {
     super(props);
-    this.dispatch = props.dispatch;
     this.state = {
       item: '',
     };
